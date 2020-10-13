@@ -3,6 +3,8 @@ alias use-php7.2='sudo update-alternatives --set php /usr/bin/php7.2 && valet us
 alias use-php7.3='sudo update-alternatives --set php /usr/bin/php7.3 && valet use 7.3'
 alias use-php7.4='sudo update-alternatives --set php /usr/bin/php7.4 && valet use 7.4'
 alias art='php artisan'
+alias mf='php artisan migrate:fresh'
+alias mfs='php artisan migrate:fresh --seed'
 alias t='vendor/bin/phpunit'
 alias phpunit='vendor/bin/phpunit'
 
