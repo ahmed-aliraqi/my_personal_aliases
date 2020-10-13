@@ -10,6 +10,8 @@ alias phpunit='vendor/bin/phpunit'
 
 alias madariskm.ssh='ssh madariskm@madariskm.com -p 9718'
 alias mix101.ssh='ssh mix101@88.198.115.87 -p 9718'
+alias laraeast.ssh='ssh works@laraeast.com'
+alias elnoorphp.ssh='ssh -p 9718 elnoorphp@elnoorphp.com'
 
 function gitlab {
 
@@ -24,3 +26,4 @@ function github {
   git clone "$URL";
 
 }
+
