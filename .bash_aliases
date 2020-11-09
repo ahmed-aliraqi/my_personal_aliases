@@ -1,7 +1,3 @@
-alias ..="cd ../"
-alias ...="cd ../../"
-alias ....="cd ../../../"
-alias .....="cd ../../../../"
 alias _='sudo'
 alias g='git'
 alias art='php artisan'
