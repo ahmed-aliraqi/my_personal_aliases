@@ -17,3 +17,7 @@ alias wip='git add . && git commit -m "wip" && git push'
 alias mfs='php artisan migrate:fresh --seed'
 alias serve='artisan serve'
 alias tinker='artisan tinker'
+alias dc='docker-compose'
+alias dce='dc exec'
+dc-ssh() { dce "$1" bash; };
+alias dc.ssh='dc-ssh'
